@@ -1,4 +1,4 @@
-# uniq - a k-mer serialization package
+# .uniq v5
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/shenwei356/uniq.svg)](https://pkg.go.dev/github.com/shenwei356/uniq)
 
