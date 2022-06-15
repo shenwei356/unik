@@ -1,6 +1,6 @@
-# .uniq v5
+# .unik v5
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/shenwei356/uniq.svg)](https://pkg.go.dev/github.com/shenwei356/uniq)
+[![Go Reference](https://pkg.go.dev/badge/github.com/shenwei356/unik.svg)](https://pkg.go.dev/github.com/shenwei356/unik)
 
 This package provides k-mer serialization methods for the package [kmers](https://github.com/shenwei356/kmers), 
 TaxIds of k-mers are optionally saved, while there's no frequency information.
@@ -42,10 +42,14 @@ label           |encoded-kmer<sup>a</sup>|gzip-compressed<sup>b</sup>|compact-fo
   using varint-GB algorithm.
 - In all test, flag `--canonical` is ON when running `unikmer count`.
 
+## Support
+
+Please [open an issue](https://github.com/shenwei356/unik/issues) to report bugs,
+propose new functions or ask for help.
 
 ## License
 
-[MIT License](https://github.com/shenwei356/unikmer/blob/master/LICENSE)
+[MIT License](https://github.com/shenwei356/unik/blob/master/LICENSE)
 
 ## History
 
